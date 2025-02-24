@@ -107,6 +107,15 @@
 // console.log(myAccount.getBalance()); // 1300
 
 
-function memoize(fn){
-    return function
-}
+// function memoize(fn){
+//     return function
+// }
+
+const obj1 = {
+    name: "eklavya",
+    method: function() {
+        console.log("finger ishita right now");
+    }
+ }
+ obj1.method();
+ const obj2 = obj1;
